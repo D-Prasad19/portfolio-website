@@ -35,7 +35,7 @@ This is the personal portfolio website of **Divyanshu Prasad**, a final-year Com
 ---
 
 ## Live Demo
-[View Portfolio Live]([https://d-prasad19.github.io/portfolio-website/Portfolio.html](https://d-prasad19.github.io/portfolio-website/Portfolio.html))  
+[View Portfolio Live](https://d-prasad19.github.io/portfolio-website/Portfolio.html)  
 *(Replace `#` with live deployment link if hosted)*
 
 ---
