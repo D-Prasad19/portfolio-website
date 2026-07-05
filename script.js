@@ -21,23 +21,23 @@ $(document).ready(function () {
     });
   });
 
-  // Smooth scroll menu items config
+  // Smooth scroll menu items configuration
   $('.navbar .menu li a').on('click', function () {
     $('html').css("scrollBehavior", "smooth");
     $('.navbar .menu').removeClass("active");
     $('.menu-btn i').removeClass("active");
   });
 
-  // Responsive mobile menu toggle (Fix: Removed nested ready state)
+  // Responsive mobile menu toggle
   $('.menu-btn').on('click', function () {
     $('.navbar .menu').toggleClass("active");
     $('.menu-btn i').toggleClass("active");
   });
 
-  // Typing dynamic configuration strings
+  // Typing dynamic configuration strings (Reflective of updated resume credentials)
   if ($('.typing').length) {
     new Typed(".typing", {
-      strings: ["Full Stack Python Developer", "Data Science Enthusiast", "PowerBI Developer", "Web Developer"],
+      strings: ["Full Stack Python Developer", "Google Certified Data Analyst", "Machine Learning Specialist"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true
@@ -46,7 +46,7 @@ $(document).ready(function () {
 
   if ($('.typing-2').length) {
     new Typed(".typing-2", {
-      strings: ["Full Stack Developer", "Data Science Enthusiast", "PowerBI Developer", "Data Analyst"],
+      strings: ["Python Full Stack Developer", "Data Analyst", "Machine Learning Engineer"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true
