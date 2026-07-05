@@ -86,7 +86,7 @@ body {
   cursor: pointer;
 }
 
-/* Scroll-Up Navigation element button */
+/* Scroll-Up Navigation Button */
 .scroll-up-btn {
   position: fixed;
   right: 30px;
@@ -139,7 +139,7 @@ section {
   transform: translateX(-50%);
 }
 
-/* Home UI elements */
+/* Home Section Styles */
 .home {
   display: flex;
   align-items: center;
@@ -182,7 +182,7 @@ section {
   color: #0f0f1a;
 }
 
-/* About Component styles layout */
+/* About Section Styles */
 .about-content {
   display: flex;
   flex-wrap: wrap;
@@ -230,7 +230,7 @@ section {
   border: 2px solid #8a2be2;
 }
 
-/* Skills Mapping structural container variables rules config */
+/* Skills Section Styles */
 .skills-content {
   display: flex;
   flex-wrap: wrap;
@@ -242,10 +242,29 @@ section {
 .skills-content .text {
   font-size: 22px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  color: #00ffe5;
 }
 .skills-content .left p {
   line-height: 1.6;
+  margin-bottom: 15px;
+}
+.skills-content .left p strong {
+  color: #00ffe5;
+}
+.skills-content .left a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 24px;
+  background: #8a2be2;
+  color: white;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.skills-content .left a:hover {
+  background: transparent;
+  color: #8a2be2;
+  border: 2px solid #8a2be2;
 }
 .bars {
   margin-top: 20px;
@@ -270,13 +289,14 @@ section {
   background: linear-gradient(90deg, #00ffe5, #8a2be2);
   border-radius: 10px;
 }
-/* Fixed CSS Skill mappings class links targeting specific selectors elements rules */
+
+/* Verified Progress Bar Mappings */
 .python-bar::before { width: 90%; }
 .sql-bar::before { width: 85%; }
 .js-bar::before { width: 80%; }
-.powerbi-bar::before { width: 70%; }
+.powerbi-bar::before { width: 75%; }
 
-/* Projects, Carousel components styles items logic elements spacing settings context */
+/* Projects & Experience Carousel Styles */
 .teams {
   background: #1a1a2e;
 }
@@ -285,8 +305,8 @@ section {
   padding: 30px;
   border-radius: 10px;
   transition: all 0.3s ease;
-  text-align: center;
   color: #e0e0e0;
+  height: 100%;
 }
 .teams .card:hover {
   box-shadow: 0 0 15px #00ffe5;
@@ -298,8 +318,11 @@ section {
   color: #00ffe5;
   margin-bottom: 10px;
 }
+.teams .card p {
+  line-height: 1.5;
+}
 
-/* Contact Component block layout rules properties items options */
+/* Contact Section Styles */
 .contact-content {
   display: flex;
   flex-wrap: wrap;
@@ -358,7 +381,7 @@ form button:hover {
   color: white;
 }
 
-/* Footer layout elements typography rules rules structural items specifications elements context */
+/* Footer Styles */
 footer {
   background: #111;
   color: #ccc;
@@ -372,7 +395,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Responsive Viewports Layout Queries Framework adjustments breakpoints configuration adjustments rules styling mapping elements sets updates logic styles options structural items values settings */
+/* Responsive Viewports Framework Breakpoints */
 @media (max-width: 991px) {
   .max-width {
     padding: 0 50px;
